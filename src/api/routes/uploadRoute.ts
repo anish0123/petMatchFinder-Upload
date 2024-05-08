@@ -14,7 +14,7 @@ const fileFilter = (
     cb(null, false);
   }
 };
-const upload = multer({dest: './tmp/', fileFilter});
+const upload = multer({dest: './uploads/', fileFilter});
 const router = express.Router();
 
 // TODO: Add auth middleware
